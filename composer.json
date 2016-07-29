@@ -1,0 +1,37 @@
+{
+    "name": "imt/behat-profiling-extension",
+    "description": "The Behat extension that allows you to profile Behat steps",
+    "type": "library",
+    "keywords": [
+        "Behat"
+    ],
+    "homepage": "http://github.com/IgorTimoshenko/behat-profiling-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Timoshenko",
+            "email": "igor.timoshenko@i.ua",
+            "homepage": "http://igortimoshenko.com"
+        }
+    ],
+    "support": {
+        "email": "igor.timoshenko@i.ua",
+        "issues": "http://github.com/IgorTimoshenko/behat-profiling-extension/issues",
+        "wiki": "http://github.com/IgorTimoshenko/behat-profiling-extension/wiki",
+        "source": "http://github.com/IgorTimoshenko/behat-profiling-extension"
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "behat/behat": "~3"
+    },
+    "require-dev": {
+        "phploc/phploc": "~3",
+        "squizlabs/php_codesniffer": "~3"
+    },
+    "autoload": {
+        "psr-4": {
+            "IMT\\BehatProfilingExtension\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
