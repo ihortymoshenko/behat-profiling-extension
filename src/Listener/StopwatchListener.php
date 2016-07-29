@@ -42,10 +42,10 @@ class StopwatchListener implements EventSubscriberInterface
      */
     public static function getSubscribedEvents()
     {
-        return [
+        return array(
             StepTested::BEFORE => 'beforeStep',
             StepTested::AFTER  => 'afterStep',
-        ];
+        );
     }
 
     /**
