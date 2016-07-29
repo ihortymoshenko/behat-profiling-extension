@@ -13,7 +13,7 @@ following to your `composer.json` file:
 
 ```json
 {
-    "require": {
+    "require-dev": {
         "imt/behat-profiling-extension": "dev-master"
     }
 }
