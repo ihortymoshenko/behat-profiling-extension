@@ -40,7 +40,20 @@ default:
         IMT\BehatProfilingExtension\Extension: ~
 ```
 
-That is all!
+That's all!
+
+If you want disable/enable the extension depending of environment you can use `use_env` parameter
+
+```yml
+default:
+    extensions:
+        IMT\BehatProfilingExtension\Extension:
+            use_env: BEHAT_PROFILING_ENABLED
+```
+
+```sh
+$ BEHAT_PROFILING_ENABLED=true behat
+```
 
 ## Testing ##
 
