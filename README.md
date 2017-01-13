@@ -42,7 +42,7 @@ default:
 
 That's all!
 
-If you want disable/enable the extension depending of environment you can use `use_env` parameter
+If you want to disable/enable the extension depending of environment you can use `use_env` parameter:
 
 ```yml
 default:
