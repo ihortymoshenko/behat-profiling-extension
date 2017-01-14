@@ -12,6 +12,10 @@
             "name": "Igor Timoshenko",
             "email": "igor.timoshenko@i.ua",
             "homepage": "http://igortimoshenko.com"
+        },
+        {
+            "name": "Vitalii Piskovyi",
+            "email": "vitalii.piskovyi@gmail.com"
         }
     ],
     "support": {
@@ -22,7 +26,8 @@
     },
     "require": {
         "php": ">=5.3.3",
-        "behat/behat": "~3"
+        "behat/behat": "~3",
+        "symfony/stopwatch": "~3"
     },
     "require-dev": {
         "phploc/phploc": "~3",
